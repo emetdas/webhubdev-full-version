@@ -1,0 +1,23 @@
+@import "../function/variable";
+#testimonial{
+    & .testimonial-slider{
+        margin: 1rem 0;
+        padding: 1.5rem 0.5rem;
+        box-shadow: 0 0 5px 0px rgb(230, 230, 230);
+    }
+    & .slide-img{
+        text-align: center;
+        & img{
+            width: 8.375rem;
+            height: 8.375rem;
+            display: inline-block;
+        }
+    }
+    & p{
+        text-align: justify;
+    }
+
+}
+
+
+

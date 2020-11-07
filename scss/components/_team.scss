@@ -1,0 +1,40 @@
+@import "../function/variable";
+.team-paragraph {
+    text-align: justify;
+}
+.socile-icon{
+    padding: 1rem 0.5rem;
+    & a{
+        & i{
+            font-size: 1.5rem;
+            margin-left: 0.5rem;
+            width: 3rem;
+            height: 3rem;
+            border: 1px solid goldenrod;
+            line-height: 3rem;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+}
+.fa-linkedin-in{
+    color:$linkedin;
+}
+.fa-twitter{
+    color:$twitter;
+}
+.fa-instagram{
+    color: $instragram;
+}
+.fa-facebook-f{
+    color: $facebook;
+}
+.fa-pinterest{
+    color: $pinterest;
+}
+.fa-github-alt{
+    color:$github;
+}

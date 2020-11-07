@@ -1,0 +1,49 @@
+.feature-contant{
+    box-shadow: 0 0 2px grey;
+    padding: 0.7rem 0.5rem;
+    & i{
+        position: relative;
+        overflow: hidden;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        box-shadow: 0 0 2px grey;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        cursor: pointer;
+       
+        &::after{
+            position: absolute;
+            z-index: -1;
+            content: '';
+            width: 0;
+            left: -13%;
+            top: -3%;
+            height: 0;
+            background: rgb(36, 215, 247);
+            transition: all 0.5s linear;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        &:hover::after{
+            width: 100%;
+            height: 80%;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import "../function/variable";
+form{
+    & textarea{
+        resize: none;
+    }
+}
+.form-control{
+    outline: none !important;
+    border: 0.1rem solid $github;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 0.1rem solid $github;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0 $white;
+    box-shadow: 0 0 0 0  $white;
+}

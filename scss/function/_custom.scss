@@ -1,0 +1,75 @@
+@import "variable";
+.slide-img,
+.team-img{
+    margin-bottom: 1rem;
+}
+.bg-primary{
+    background:$primary !important;
+    &:hover,&:focus{
+        background:$primary !important;
+    }
+}
+.sticky {
+    top: 0;
+    position: fixed;
+    width: 100% !important;
+    background: $white;
+    display: block;
+    z-index: 99999;
+    animation: sticky 1.2s;
+    -webkit-animation: sticky 1.2s;
+}
+@keyframes sticky {
+    0% {
+        top: -10rem;
+    }
+    100% {
+        top: 0;
+    }
+}
+.vbox-close {
+    right: 3rem;
+    top: 0.5rem;
+}
+// slider-icon
+.owl-theme .owl-nav [class*=owl-] {
+    background: $primary !important;
+    color: $white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.owl-nav{
+    & button{
+        & i{
+            width: 2rem;
+            height: 2rem;
+            line-height: 2rem;
+            background: $primary;
+            color: $white;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            &:hover{
+                background: $primary;
+                color: $white;
+            }
+        }
+    }
+    & .owl-prev,
+    & .owl-next{
+        position: absolute;
+    }
+    & .owl-next{
+        right: 0;
+        top: 40%;
+    }
+    & .owl-prev{
+        left: 0;
+        top: 40%;
+    }
+}

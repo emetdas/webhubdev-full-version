@@ -1,0 +1,15 @@
+@import "../function/variable";
+.footer-item{
+    & a{
+        color: $white;
+    }
+    & .footer-socil{
+        margin-top: 2rem;
+        & i{
+            width: 2rem;
+            height: 2rem;
+            background: $white;
+            line-height: 2rem;
+        }
+    }
+}

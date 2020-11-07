@@ -1,0 +1,10 @@
+.counter-item{
+ box-shadow: 0 0 5px 0px rgb(238, 238, 238);
+ padding: 2rem 1rem;
+ & .counter-img{
+    & img{
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+}
+}

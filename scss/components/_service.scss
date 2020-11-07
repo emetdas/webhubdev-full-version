@@ -1,0 +1,16 @@
+#service{
+    & .service-item{
+    padding: 0 0 1rem 0;
+    box-shadow:  20px 20px 60px #e4e4e4, 
+                 -20px -20px 60px #f0f0f0;
+    & .service-img{
+        & img{
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+    & ul{
+        margin-left: 6rem;
+    }
+    }
+}
