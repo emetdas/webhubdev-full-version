@@ -1,0 +1,29 @@
+#service .service-item {
+  padding: 0 0 1rem 0;
+  -webkit-box-shadow: 10px 10px 60px #e4e4e4;
+          box-shadow: 10px 10px 60px #e4e4e4;
+}
+
+#service .service-item ul {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+#service .service-item .service-img img {
+  width: 10rem;
+  height: 10rem;
+}
+
+#service .service-item .service-title {
+  font-size: 1.1rem;
+}
+
+.filter-btn {
+  text-align: center;
+}
+
+.filter-btn li {
+  background: #3e54cf;
+  display: inline-block;
+  margin: 0.5rem;
+}
